@@ -6,5 +6,9 @@ import javax.persistence.Id;
 @Entity
 public class UserEntity {
     @Id
-    Long userId;
+    String userKey;
+
+    String userId;
+
+
 }
