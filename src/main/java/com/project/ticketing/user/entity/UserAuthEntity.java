@@ -15,4 +15,6 @@ public class UserAuthEntity extends BaseEntity {
     String userKey;
 
     String password;
+
+    int failCount;
 }
