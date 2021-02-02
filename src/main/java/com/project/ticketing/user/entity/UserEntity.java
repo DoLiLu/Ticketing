@@ -2,6 +2,7 @@ package com.project.ticketing.user.entity;
 
 import com.project.ticketing.common.entity.BaseEntity;
 import com.project.ticketing.common.type.Gender;
+import com.project.ticketing.common.type.UserType;
 import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 
@@ -18,6 +19,8 @@ public class UserEntity extends BaseEntity {
     String userId;
 
     String email;
+
+    UserType type;
 
     String birthday;
 
